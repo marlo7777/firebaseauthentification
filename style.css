@@ -1,0 +1,66 @@
+
+*{
+	font-family: 'Montserrat', sans-serif;
+ }
+
+ .form-login{
+ 	border :  0.5px grey solid;
+ 	width: 20%;
+ 	height: 250px;
+ 	position: absolute;
+ 	top: 200px;
+ 	left: 550px;
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	
+ }
+
+ #user{
+ 	visibility: hidden;
+
+ }
+
+ .form-logout{
+ 	border :  0.5px grey solid;
+ 	width: 20%;
+ 	height: 150px;
+ 	position: absolute;
+ 	top: 200px;
+ 	left: 550px;
+ 	text-align: center;
+ 	padding-top: 20px;
+
+ }
+
+
+ .form-login , .form-loggout{
+ 	display: none;
+ }
+
+
+ input,button{
+ 	border-radius: 7px;
+ 	padding: 10px;
+ 	outline: none;
+ 	border: 0.5px solid grey;
+ }
+
+ button{
+  width: 70%;
+  color:white;
+  background: #4682B4;
+  border: white;
+  cursor: pointer;
+ }
+
+ .textInput{
+ 	margin-bottom: 18px;
+ }
+
+ input:focus{
+ 	border: 0.7px solid #4682B4;
+ }
+
+ button:hover{
+ 	background: #0000FF;
+ }

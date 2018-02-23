@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+	
+	<div id="login-div" class = "form-login">
+		<h4>User Login</h4>
+		<div class="textInput">
+			<input type="text" placeholder="Enter your Email" id = "emailText">
+		</div>
+		<div class="textInput">
+			<input type="password" placeholder="Enter your password" id = "passwordText">
+		</div>
+		<div class="textInput">
+			<button onclick="login()">Login</button>
+		</div>
+	</div>
+
+	<div id="user-div" class="form-logout">
+		<h4>Welcomme User : </h4>
+		<h6 id="user">Your Email : </h6>
+		<button class="logout" onclick="logout()">Logout</button>
+	</div>
+	<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyD9YO6waJZcNsQ43A2577mcSMQ5iTsmuTw",
+	    authDomain: "focused-arch-186717.firebaseapp.com",
+	    databaseURL: "https://focused-arch-186717.firebaseio.com",
+	    projectId: "focused-arch-186717",
+	    storageBucket: "focused-arch-186717.appspot.com",
+	    messagingSenderId: "6908147159"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<script type="text/javascript" src = "script.js"></script>
+</body>
+</html>
