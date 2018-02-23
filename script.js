@@ -7,6 +7,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     document.getElementById("user-div").style.display="block";
     var user = firebase.auth().currentUser;
     if(user != null){
+		//get user email
     	var email = user.email;
     	document.getElementById('user').style.visibility="visible";
     	document.getElementById('user').innerHTML=email;
